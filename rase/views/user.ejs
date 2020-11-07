@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+
+<form action="payment_gateway/payumoney" method="POST">
+    <input class="amount" name="amount" value=""/>
+    <input class="con" name="phone" value="" />
+    <input name="service_provider" 
+     value="payu_paisa"/>
+    <input class="product" name="productinfo" 
+     value="educational purpose"/>
+     
+     <input type="submit" value="Pay"/>
+</form>
+
+
+<%- include('partials/footer') %>
